@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #6A6969;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: right;
+}
+
+section {
+  min-height: 200px;
+  padding: 5% 0;
+}
+
+section:nth-child(even) {
+  background-color: lightgray;
+}
+
+footer {
+  background-color: #212121;
+  min-height: 100px;
+  padding: 3%;
+}
