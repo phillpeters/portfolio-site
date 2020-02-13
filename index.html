@@ -5,30 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio site for Phill Peters">
   <title>Phill Peters' Portfolio</title>
+  <link 
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto&display=swap" 
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+  <script src="script.js" type="text/javascript" defer></script>
 </head>
 <body>
-  <nav role="navigation">Nav</nav>
+  <nav class="nav" role="navigation">Portfolio</nav>
   <main role="main">
-    <header role="banner">
-      <h1>Hero</h1>
-      <h3>Headline</h3>
-    </header>
-    
-    <section>
-      Contact
-    </section>
-    
-    <section>
-      Bio
-    </section>
+    <div class="hero">
+      <header role="banner">
+        <h1>Phill Peters</h1>
+        <h2>Full Stack Developer, PC Enthusiast</h2>
+      </header>
 
-    <section>
-      Portfolio
+      <section class="bio">
+        <p>I am a fullstack developer and PC enthusiast from the northern reaches of Alberta, Canada.
+          I find web and software development to be uniquely suited to my interests and natural abilities,
+          but I also enjoy learning about and building my own PCs.</p>
+        <p>If I’m not coding or building the next Dream Machine, you can find me spending time with my family,
+          cycling, playing Minecraft or Chess, or fixing someone else’s computer.</p>
+      </section>
+      
+      <section class="contact-info">
+        <div class="contact-info-links">
+          <a href="https://github.com/phillpeters" target="_blank">
+            <img src="assets/icons/icons8-github.svg" alt="github icon">
+          </a>
+          <a href="#">
+            <img src="assets/icons/icons8-linkedin.svg" alt="linkedin icon">
+          </a>
+          <a href="mailto:phillpeters1@gmail.com">
+            <img src="assets/icons/icons8-email.svg" alt="email icon">
+          </a>
+        </div>
+      </section>
+
+      <div class="portfolio-nav">
+        <h3>View Portfolio</h3>
+        <img src="assets/icons/icons8-expand-arrow.svg" alt="expand arrow">
+      </div>
+    </div>
+
+    <section class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="quiz-app">
+        <img src="assets/quiz-app.png" alt="portfolio image">
+        <div class="tech-logos">
+          <img src="assets/icons/icons8-html-5.svg" alt="html5 logo">
+          <img src="assets/icons/icons8-css3.svg" alt="css3 logo">
+          <img src="assets/icons/iconfinder-icon-jquery.svg" alt="jquery logo">
+        </div>
+        <h3>Let's Build a PC! Quiz App</h3>
+        <p>A simple quiz app that takes the user through a series of questions, providing feedback on their answers.
+          This app was built with HTML, CSS, and jQuery, and is fully responsive and keyboard-navigable.</p>
+        <div class="quiz-app-links">
+          <a href="https://github.com/phillpeters/quiz-app" target="_blank">
+            <img src="assets/icons/icons8-source-code.svg" alt="code icon">
+          </a>
+          <a href="https://github.com/phillpeters" target="_blank">
+            <img src="assets/icons/icons8-geography.svg" alt="internet icon">
+          </a>
+        </div>
+      </div>
     </section>
   </main>
-  <footer role="contentinfo">Footer</footer>
+  <footer role="contentinfo">
+    <p>© Phill Peters 2020</p>
+    <div class="contact-info-links">
+      <a href="https://github.com/phillpeters" target="_blank">
+        <img src="assets/icons/icons8-github.svg" alt="github icon">
+      </a>
+      <a href="#">
+        <img src="assets/icons/icons8-linkedin.svg" alt="linkedin icon">
+      </a>
+      <a href="mailto:phillpeters1@gmail.com">
+        <img src="assets/icons/icons8-email.svg" alt="email icon">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #6A6969;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  padding-right: 5px;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #7E57C2;
+  font-weight: bolder;
+}
+
+header {
+  margin-top: 110px;
+}
+
+header > p {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #212121;
+  min-height: 50px;
+  padding: 3%;
+}
+
+footer p {
+  font-size: 13px;
+  width: 50%;
+  text-align: left;
+}
+
+footer a {
+  padding: 0 5px;
+}
+
+footer img {
+  width: 25px;
+  height: auto;
+}
+
+footer > .contact-info-links {
+  justify-content: flex-end;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.contact-info {
+  margin: 30px 0 50px;
+  display: flex;
+  
+}
+
+.contact-info-links {
+  margin: auto;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-info img {
+  width: 40px;
+  height: auto;
+}
+
+.bio {
+  padding: 0 35px;
+  font-size: 17px;
+}
+
+.portfolio {
+  margin: 100px 0;
+}
+
+.portfolio h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.portfolio-image, .tech-logos {
+  width: 100%;
+}
+
+.quiz-app {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.quiz-app h3 {
+  margin: 5px 0;
+}
+
+.quiz-app p {
+  text-align: justify;
+}
+
+.tech-logos img {
+  width: 20px;
+  height: auto;
+}
+
+.quiz-app-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quiz-app-links img {
+  width: 30px;
+  height: auto;
+}
