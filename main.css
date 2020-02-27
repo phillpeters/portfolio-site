@@ -4,23 +4,14 @@
 
 html {
   font-size: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body { 
   font-family: "Open Sans", sans-serif;
   color: #6A6969;
   text-align: center;
-}
-
-nav {
-  padding: 1em;
-  text-align: right;
-  background-color: transparent;
-}
-
-nav a {
-  color: #7E57C2;
-  font-weight: bold;
 }
 
 header > h2 {
@@ -30,6 +21,7 @@ header > h2 {
 main {
   max-width: 1000px;
   width: 100vw;
+  margin: 0 auto;
   padding: 1.5em;
 }
 
@@ -37,11 +29,93 @@ a {
   text-decoration: none;
 }
 
+a > img {
+  width: 2.5em;
+}
+
 p {
   padding: 0 1em;
   font-size: 0.9em;
 }
 
+.spacer {
+  height: 3em;
+}
+
+.contact-info .contact-info-links {
+  width: 75%;
+  margin: 2.5em auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.portfolio {
+  width: 75%;
+  margin: 3em auto;
+}
+
+.quiz-app {
+  text-align: left;
+}
+
 .quiz-app > img {
   width: 100%;
+}
+
+.quiz-app p {
+  padding: 0;
+}
+
+.tech-logos img {
+  width: 1.5em;
+}
+
+.quiz-app-links {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz-app-links img {
+  width: 2em;
+}
+
+footer {
+  background-color: #212121;
+  position: absolute;
+  width: 100%;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .contact-info-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .contact-info-links img {
+  width: 2em;
+}
+
+.copyright {
+  margin-left: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 150%;
+  }
+
+  .portfolio {
+    width: 65%;
+  }
+
+  footer .contact-info-links {
+    width: 25%;
+  }
 }
