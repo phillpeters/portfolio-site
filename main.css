@@ -41,3 +41,7 @@ p {
   padding: 0 1em;
   font-size: 0.9em;
 }
+
+.quiz-app > img {
+  width: 100%;
+}
